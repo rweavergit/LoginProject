@@ -1,5 +1,5 @@
 """
-ASGI config for LoginProject project.
+ASGI config for Login project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'LoginProject.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Login.settings')
 
 application = get_asgi_application()
